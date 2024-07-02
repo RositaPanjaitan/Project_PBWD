@@ -1,0 +1,253 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #275f36;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #00C896;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1B4225;
+}
+
+.navbar-brand img {
+    height: 80px; 
+    width: 250px;
+}
+
+.nav-link {
+    color: #ffffff;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #000000; /* Warna hitam saat di-hover */
+}
+
+.nav-link.active {
+    color: #000000; /* Warna hitam saat berada di halaman aktif */
+}
+
+/* Header Section */
+.header {
+    padding: 50px 0;
+}
+
+.jumbo-header {
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.paragraph {
+    font-size: 16px;
+    color: #C4C4C4;
+}
+
+.stats .item {
+    padding: 10px;
+}
+
+.big-header {
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+/* Best Items Section */
+.best-items {
+    padding: 50px 0;
+    background-color: #1B4225;
+}
+
+.best-items .big-header {
+    color: #ffffff;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.item {
+    margin-bottom: 30px;
+    background-color: #2A5638;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.item:hover {
+    transform: translateY(-10px);
+}
+
+.item img {
+    width: 100%;
+    border-bottom: 1px solid #fafafa;
+}
+
+.info {
+    padding: 15px;
+}
+
+.small-header {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+/* Testimonial Section Styles */
+.testimoni-section {
+    padding: 50px 0;
+    background-color: #1B4225;
+}
+
+.card {
+    background-color: #2A5638;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card .paragraph {
+    color: #C4C4C4;
+}
+
+.card .small-header {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.extra-small-paragraph {
+    font-size: 12px;
+    color: #C4C4C4;
+}
+
+
+/* Details Section Styles */
+.house-details {
+    padding: 50px 0;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.house-informations {
+    margin-top: 30px;
+}
+
+.booking {
+    padding: 20px;
+    background-color: #2A5638;
+    border-radius: 10px;
+}
+
+.booking form .form-control {
+    margin-bottom: 20px;
+}
+
+.item .icon {
+    margin-right: 10px;
+}
+
+.item .info h3 {
+    margin-bottom: 5px;
+}
+
+/* Adjusted Footer Section */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 5px; 
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.location img {
+    margin-right: 10px;
+}
+
+.location p {
+    font-size: 14px;
+    color: #C4C4C4;
+    margin: 0;
+}
+
+.price {
+    margin-top: 5px; 
+}
+
+.price p {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.extra-small-paragraph {
+    font-size: 12px;
+    color: #C4C4C4;
+}
+
+.clear {
+    clear: both;
+}
+/* Form Styles */
+.booking form .form-control {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.booking button {
+    background-color: #00C896;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.booking button:hover {
+    background-color: #009876;
+}
+
+.booking h3 {
+    margin-bottom: 20px;
+}
